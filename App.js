@@ -43,7 +43,7 @@ const App = () => {
 
   const openSharedDialog = async () => {
     if (!(await Sharing.isAvailableAsync())){
-      alert('Compartir no esta disponible en tu plataforma');
+      alert('Compartir no esta disponible en tu plataforma!');
       return;
     }
 
